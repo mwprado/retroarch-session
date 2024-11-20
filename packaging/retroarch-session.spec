@@ -16,7 +16,7 @@ This package provides session desktop files for RetroArch, allowing it to be lau
 
 %prep
 # Extract the source code
-%setup -q -n retroarch-session-main
+%setup
 
 %build
 # No build steps needed for this package
