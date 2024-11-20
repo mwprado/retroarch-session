@@ -1,6 +1,6 @@
 Name:           retroarch-session
 Version:        1.0
-Release:        0alpha%{?dist}
+Release:        1alpha%{?dist}
 Summary:        Wayland and X11 session desktop file for RetroArch
 
 License:        GPLv3
