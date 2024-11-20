@@ -1,5 +1,5 @@
 Name:           retroarch-session
-Version:        1.0.2alpha
+Version:        1.0.3alpha
 Release:        1%{?dist}
 Summary:        Wayland and X11 session desktop file for RetroArch
 
