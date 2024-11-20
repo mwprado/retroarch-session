@@ -7,10 +7,13 @@ This project provides session files for launching **RetroArch** as a standalone 
 - X11 session support
 - Simplified setup for standalone RetroArch sessions
 
-## Installation
-To build and install the RPM package:
+## Requirements
+1. A Wayland or X11-compatible display manager.
+2. The **RPM Fusion repository** must be enabled, as RetroArch is available there.
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/mwprado/retroarch-session.git
-   cd retroarch-session
+### Enabling RPM Fusion
+To install RetroArch, first enable the RPM Fusion repository:
+
+#### For Fedora:
+```bash
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
