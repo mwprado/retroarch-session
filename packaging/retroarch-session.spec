@@ -5,7 +5,7 @@ Summary:        Wayland and X11 session desktop file for RetroArch
 
 License:        GPLv3
 URL:            https://github.com/mwprado/retroarch-session
-Source0:        %{url}/archive/refs/tags/v%{version}.%{release}.tar.gz
+Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz
 
 BuildArch:      noarch
 
