@@ -12,8 +12,4 @@ This project provides session files for launching **RetroArch** as a standalone 
 2. The **RPM Fusion repository** must be enabled, as RetroArch is available there.
 
 ### Enabling RPM Fusion
-To install RetroArch, first enable the RPM Fusion repository:
-
-#### For Fedora:
-```bash
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+To install RetroArch, first enable the RPM Fusion repository. Detailed instructions can be found at https://rpmfusion.org.
