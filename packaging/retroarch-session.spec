@@ -9,6 +9,8 @@ Source0:        %{url}/archive/refs/heads/main.tar.gz
 
 BuildArch:      noarch
 
+Requires:       retroarch
+
 %description
 This package provides session desktop files for RetroArch, allowing it to be launched as a standalone session in both Wayland and X11 environments.
 
