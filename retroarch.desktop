@@ -4,4 +4,4 @@ Comment=Run RetroArch as a standalone Wayland session
 Exec=retroarch
 Type=Application
 X-GDM-SessionType=wayland
-  
+PrefersNonDefaultGPU=true  
