@@ -1,6 +1,6 @@
 Name:           retroarch-session
 Version:        1.0.3alpha
-Release:        1%{?dist}
+Release:        %autorelease
 Summary:        Wayland and X11 session desktop file for RetroArch
 
 License:        GPLv3
@@ -36,5 +36,4 @@ install -m 0644 retroarch.desktop %{buildroot}/usr/share/xsessions/retroarch.des
 /usr/share/xsessions/retroarch.desktop
 
 %changelog
-* Wed Nov 20 2024 Your Name <youremail@example.com> - 1.0-1
-- Initial package creation with support for Wayland and X11 sessions under GPLv3
+%autochangelog
